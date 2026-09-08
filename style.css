@@ -1,0 +1,21 @@
+#one{
+    margin-top:160px;
+    margin-left:150px;
+    border-radius:50%;
+    border-top:16px solid black;
+    border-bottom:16px solid white;
+    border-left:16px solid white;
+    border-right:16px solid white;
+    height:200px;
+    width:200px;
+    animation:spin 1s none 0s infinite normal;
+}
+
+@keyframes spin{
+    from{
+        transform:rotate(0deg)
+    }
+    to{
+        transform:rotate(360deg)
+    }
+}
